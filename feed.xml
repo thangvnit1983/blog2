@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Van Thang&#x27;s Blog</title>
+    <link href="https://thangvnit1983.github.io/blog2/feed.xml" rel="self" />
+    <link href="https://thangvnit1983.github.io/blog2" />
+    <updated>2019-04-15T11:15:10+07:00</updated>
+    <author>
+        <name>Van Thang</name>
+    </author>
+    <id>https://thangvnit1983.github.io/blog2</id>
+
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>Van Thang</name>
+        </author>
+        <link href="https://thangvnit1983.github.io/blog2/test.html"/>
+        <id>https://thangvnit1983.github.io/blog2/test.html</id>
+
+        <updated>2019-04-15T11:15:06+07:00</updated>
+            <summary>
+                <![CDATA[
+                    <blockquote>xxx</blockquote>
+<p><span style="text-decoration: line-through;"></span><span style="text-decoration: line-through;">xxxx</span></p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <blockquote>xxx</blockquote>
+<p><span style="text-decoration: line-through;"></span><span style="text-decoration: line-through;">xxxx</span></p>
+
+<p><code>script scr=xxx</code></p>
+            ]]>
+        </content>
+    </entry>
+</feed>

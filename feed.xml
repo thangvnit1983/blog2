@@ -3,7 +3,7 @@
     <title>Van Thang&#x27;s Blog</title>
     <link href="https://thangvnit1983.github.io/blog2/feed.xml" rel="self" />
     <link href="https://thangvnit1983.github.io/blog2" />
-    <updated>2019-04-15T11:19:48+07:00</updated>
+    <updated>2019-04-15T11:22:40+07:00</updated>
     <author>
         <name>Van Thang</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://thangvnit1983.github.io/blog2/openzfs-tips.html"/>
         <id>https://thangvnit1983.github.io/blog2/openzfs-tips.html</id>
 
-        <updated>2019-04-15T11:19:26+07:00</updated>
+        <updated>2019-04-15T11:22:36+07:00</updated>
             <summary>
                 <![CDATA[
                     About SMR HDDAnother thing you might try is to leave the block size set at 1M but increase the zfs_vdev_aggregation_limit to 16M. This way as long as your doing 1M aligned IO you should never write partial blocks and leave holes. ZFS will aggregate these&hellip;
@@ -25,7 +25,15 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h3 id="About-SMR-HDD"><a href="https://github.com/zfsonlinux/zfs/issues/4877" target="_blank" rel="external noopener noreferrer">About SMR HDD</a></h3>
+                <div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1d8fjmtu10"></a></li>
+<li><a href="#About-SMR-HDD">About SMR HDD</a></li>
+<li><a href="#6x-Intel-P3520">[6x Intel P3520]</a></li>
+</ul>
+</div>
+<h3 id="About-SMR-HDD"><a href="https://github.com/zfsonlinux/zfs/issues/4877" target="_blank" rel="external noopener noreferrer">About SMR HDD</a></h3>
 <p>Another thing you might try is to leave the block size set at 1M but increase the zfs_vdev_aggregation_limit to 16M. This way as long as your doing 1M aligned IO you should never write partial blocks and leave holes. ZFS will aggregate these 1M blocks in to larger 16M IOs to the disk.</p>
 <h3 id="6x-Intel-P3520">[6x Intel P3520]</h3>
 <p>Before modify default parameter. there are only 1.xGB/s read or write. too slow…….</p>

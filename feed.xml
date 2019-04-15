@@ -3,7 +3,7 @@
     <title>Van Thang&#x27;s Blog</title>
     <link href="https://thangvnit1983.github.io/blog2/feed.xml" rel="self" />
     <link href="https://thangvnit1983.github.io/blog2" />
-    <updated>2019-04-15T11:22:40+07:00</updated>
+    <updated>2019-04-15T11:24:39+07:00</updated>
     <author>
         <name>Van Thang</name>
     </author>
@@ -17,18 +17,19 @@
         <link href="https://thangvnit1983.github.io/blog2/openzfs-tips.html"/>
         <id>https://thangvnit1983.github.io/blog2/openzfs-tips.html</id>
 
-        <updated>2019-04-15T11:22:36+07:00</updated>
+        <updated>2019-04-15T11:24:34+07:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://thangvnit1983.github.io/blog2/media/posts/2/oracle_11g_architecture.jpg" alt="" />
                     About SMR HDDAnother thing you might try is to leave the block size set at 1M but increase the zfs_vdev_aggregation_limit to 16M. This way as long as your doing 1M aligned IO you should never write partial blocks and leave holes. ZFS will aggregate these&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://thangvnit1983.github.io/blog2/media/posts/2/oracle_11g_architecture.jpg" alt="" />
                 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
-<li><a href="#mcetoc_1d8fjmtu10"></a></li>
 <li><a href="#About-SMR-HDD">About SMR HDD</a></li>
 <li><a href="#6x-Intel-P3520">[6x Intel P3520]</a></li>
 </ul>
